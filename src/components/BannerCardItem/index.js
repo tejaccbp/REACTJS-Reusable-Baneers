@@ -9,7 +9,9 @@ const BannerCardItem = props => {
       <div>
         <h1>{headerText}</h1>
         <p>{description}</p>
-        <button type="button">Show More</button>
+        <button className="button" type="button">
+          Show More
+        </button>
       </div>
     </li>
   )
